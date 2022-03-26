@@ -1,7 +1,7 @@
 # Memory-Management-XV6
 Simple memory management program in C for the XV6 OS
 
-This is my implementation of malloc in XV6 which works on XV6: See the project here https://github.com/mit-pdos/xv6-riscv 
+This is my implementation of malloc in XV6 which works on XV6: See the project [here](https://github.com/mit-pdos/xv6-riscv)
 
 To run this program please clone the XV6 github above and run these commands on Ubuntu/Linux
 ```
