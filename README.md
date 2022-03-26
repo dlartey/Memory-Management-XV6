@@ -13,7 +13,8 @@ cd xv6-riscv
 
 make qemu
 ```
-![image](https://user-images.githubusercontent.com/58071586/160236859-198dfb79-3907-4ac8-80cc-bd3ec4906e13.png)
+![image](https://user-images.githubusercontent.com/58071586/160236975-5c463f9f-19a0-4ea9-98eb-85e9688fea0d.png)
+
 
 Then make sure that the memory_management.c and memory_management.h files are in the user directory of xv6-riscv,i.e in:
 ```
@@ -24,12 +25,12 @@ Then locate the makefile in
 ```
 xv6-riscv directory
 ```
-and add $U/_memory_management\ to UPROGS
+and add $U/_mysh\ to UPROGS
 ![image](https://user-images.githubusercontent.com/58071586/160236820-178fefb2-af44-465d-a0ee-23dfe16d4944.png)
 
 Now you can run
 ```
 make qemu
-memory_management  
+mysh  
 ```
 To test the program
