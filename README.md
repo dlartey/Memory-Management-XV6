@@ -25,12 +25,12 @@ Then locate the makefile in
 ```
 xv6-riscv directory
 ```
-and add $U/_mysh\ to UPROGS
+and add $U/_memory_management\ to UPROGS
 ![image](https://user-images.githubusercontent.com/58071586/160236820-178fefb2-af44-465d-a0ee-23dfe16d4944.png)
 
 Now you can run
 ```
 make qemu
-mysh  
+memory_management  
 ```
 To test the program
